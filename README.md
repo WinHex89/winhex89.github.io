@@ -1,6 +1,6 @@
-# 自权的SPACE :link: https://WinHex89.github.io/blog 
-### :page_facing_up: [3](https://WinHex89.github.io/blog/tag.html) 
+# 自权的SPACE :link: https://winhex89.github.io 
+### :page_facing_up: [3](https://winhex89.github.io/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 14239 
-### :alarm_clock: 2024-06-28 23:35:04 
+### :alarm_clock: 2024-06-28 23:38:40 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
