@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://avatars.githubusercontent.com/u/134070684?v=4"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -241,8 +241,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 同时感谢Obsidian社区的所有贡献者，感谢我在Obsidian学习之路上，给过我帮助的所有人。</p>
 <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/25f9c57a4fa341b0633fa63d768f7ff1a4c8cbc2992ac8b8171d277574a18fc4/68747470733a2f2f6f6273696469616e2d313332343931393831342e636f732e61702d6368656e6764752e6d7971636c6f75642e636f6d2f32373039353138663766636239646461373665653539636230316561323935652e6a7067"><img src="https://camo.githubusercontent.com/25f9c57a4fa341b0633fa63d768f7ff1a4c8cbc2992ac8b8171d277574a18fc4/68747470733a2f2f6f6273696469616e2d313332343931393831342e636f732e61702d6368656e6764752e6d7971636c6f75642e636f6d2f32373039353138663766636239646461373665653539636230316561323935652e6a7067" alt="" data-canonical-src="https://obsidian-1324919814.cos.ap-chengdu.myqcloud.com/2709518f7fcb9dda76ee59cb01ea295e.jpg" style="max-width: 100%;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://winhex89.github.io"> 自权的SPACE </a>
 <p>
@@ -297,6 +299,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
